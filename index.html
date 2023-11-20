@@ -363,7 +363,70 @@
 					</address>
 				</div>
 			</section>
-			<!-- <section id="join-us" class="join-us">  join-us</section> -->
+			<section id="join-us" class="join-us section-offset">
+				<div class="container join-container">
+					<h2 class="sections-title join-title">Join us</h2>
+					<p class="sections-desc join-desc">
+						Take control of your paid subscriptions today!
+					</p>
+					<form
+						action="https://jsonplaceholder.typicode.com/posts"
+						method="post"
+						class=" "
+					>
+						<div class="form-top">
+							<div class="form-left">
+								<input
+									class="join-input"
+									type="text"
+									name="name"
+									placeholder="name"
+									required
+								/>
+								<input
+									class="join-input"
+									type="email"
+									name="email"
+									placeholder="email"
+									required
+								/>
+								<input
+									class="join-input"
+									type="tel"
+									name="phone"
+									placeholder="phone"
+									required
+								/>
+								<select class="join-select" name="country">
+									<option value="country" disabled selected>Country</option>
+									<option value="Russia">Russia</option>
+									<option value="USA">USA</option>
+									<option value="TAJIKISTAN">TAJIKISTAN</option>
+									<option value="United Kingdom">United Kingdom</option>
+									<option value="SPAIN">Canada</option>
+								</select>
+							</div>
+							<div class="form-right">
+								<textarea
+									class="join-textarea"
+									name="Comment"
+									placeholder="Comment"
+								></textarea>
+							</div>
+						</div>
+						<div class="form-bottom">
+							<div class="form-bottom-wrapper">
+								<button class="btn  btn-reset btn-join ">GET STARTED</button>
+								<label class="join-bottom-checkbox">
+									<input type="checkbox" required />
+									I agree with the
+									<a href="#" class="user-agrement"> user agreement</a>
+								</label>
+							</div>
+						</div>
+					</form>
+				</div> 
+			</section>
 		</main>
 		<footer class="footer">
 			<div class="container flex footer-container">
