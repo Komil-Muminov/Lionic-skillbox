@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./css/normaliza.css" />
 		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/media.css" />
 		<title>Lionic-start-gitlab</title>
 	</head>
 	<body>
@@ -14,7 +15,7 @@
 				<a href="" class="header-logo"
 					><img src="/img/logo.svg" alt="header-logo"
 				/></a>
-				<nav class="header-nav">
+				<nav class="header__nav">
 					<ul class="header-list list-reset flex">
 						<li class="header-list-item">
 							<a href="#hero" class="header-list-link">Home</a>
@@ -37,6 +38,11 @@
 					</ul>
 				</nav>
 				<button class="btn btn-reset header-btn">Free Trial</button>
+				<button class="btn-reset burger">
+					<span class="burger__line"></span>
+					<span class="burger__line"></span>
+					<span class="burger__line"></span>
+				</button>
 			</div>
 		</header>
 		<main class="main">
@@ -44,12 +50,11 @@
 				<div class="container">
 					<div class="hero-content flex">
 						<h1 class="hero-title">
-							This is simply a smarter way to make your legal online This1
-							is&nbsp;simply a&nbsp;smarter way to&nbsp;make your legal online
+							This is simply a smarter way to make your legal online
 						</h1>
 						<p class="hero-desc">
 							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-							nonummy nibh euismod tincidunt ut&nbsp;laoreet dolore.
+							nonummy nibh euismod tincidunt ut laoreet dolore.
 						</p>
 						<div class="hero-btn-wrapper">
 							<button class="btn-reset hero-btn btn">
@@ -64,8 +69,8 @@
 				<div class="container">
 					<h2 class="sections-title services-title">SERVICES</h2>
 					<p class="sections-desc services-desc">
-						Lionic guides you on&nbsp;making decisions for all aspects
-						of&nbsp;your end-of-life plans.
+						Lionic guides you on making decisions for all aspects of your
+						end-of-life plans.
 					</p>
 					<ul class="services-list list-reset flex">
 						<li class="services-list-item flex">
@@ -90,7 +95,7 @@
 								</defs>
 							</svg>
 
-							<h3 class="services-item-title">Your Legacy</h3>
+							<h3 class="services_item-title">Your Legacy</h3>
 							<p class="services-item-desc">
 								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
 								diam nonummy
@@ -384,8 +389,8 @@
 						method="POST"
 						class="join-form"
 					>
-						<div class="form-top">
-							<div class="form-left">
+						<div class="form-top flex">
+							<div class="form-left flex">
 								<input
 									class="join-input"
 									type="text"
@@ -440,7 +445,7 @@
 		</main>
 		<footer class="footer">
 			<div class="container flex footer-container">
-				<div class="footer-left flex">
+				<div class="footer_left flex">
 					<a href="" class="footer-logo-link"
 						><img
 							src="/img/footer-logo.svg"
