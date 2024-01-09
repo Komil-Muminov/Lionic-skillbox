@@ -1,0 +1,1 @@
+	width: calc((100% - (var(--gap) * var(--offsets))) / (var(--offsets) + 1));
